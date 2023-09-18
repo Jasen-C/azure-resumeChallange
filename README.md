@@ -1,2 +1,2 @@
-# azure-resumeChallange
-Cloud Resume Challenge repo for my Azure resume
+# CRC-ResumeHtml
+Cloud Resume Challenge repo for resume html and css

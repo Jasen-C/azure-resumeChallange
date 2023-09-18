@@ -1,0 +1,50 @@
+/*
+      Author:   Jasen Crisp
+      Date:     Sep 2023
+      Title:    CSS template
+*/
+body { background-color: black;
+          color: whitesmoke;
+          font-family: Arial, Veranda, sans-serif;
+}
+
+h1{color:lightsteelblue;
+     text-align:center;
+}
+h2{color:lightsteelblue;
+     text-align:left;
+    text-indent: 20px;
+    
+}
+h3{color:lightsteelblue;
+     text-align:left;
+    text-indent: 30px;
+    
+}
+p{
+    text-indent: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+ul{
+    text-indent: 30px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+img{
+    max-height: 450px;
+    max-width: 450px;
+    height: auto;
+    width: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+a:link {text-decoration: underline; color: #0000FF;}
+a:visited {text-decoration: underline; color: #800000;}
+a:hover {text-decoration: underline; color: red;}
+a:active {text-decoration: underline; color: maroon;}
+
