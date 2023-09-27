@@ -22,7 +22,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-           az cdn endpoint purge --content-paths  "/*" --profile-name "CRC-Dev-CDNProfile" --name "CRC-Dev-CND (CRC-Dev-CDNProfile/CRC-Dev-CND)" --resource-group "CRC_DEV_RG01"
+           az cdn endpoint purge --content-paths  "/*" --profile-name "CRC-Dev-CDNProfile" --name "CRC-Dev-CND" --resource-group "CRC_DEV_RG01"
 
   # Azure logout
     - name: logout
