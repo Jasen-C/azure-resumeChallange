@@ -8,13 +8,11 @@ const functionApiUrl = 'https://counter.crispsec.com/api/counterHTTPtrigger';
 const getVisitCount = () => {
     let count = 30;
     fetch(functionApiUrl).then(response => {
-        return response
-        // return response.json()
+        return response.json()
     }).then(response =>{
         console.log("Website called function API.");
-        count =  response;
-        // count =  response.count;
-        document.getElementById("counter").innerText = count;
+        count =  response.counterValue;
+        document.getElementById("counter").innerText = counterValue;
     }).catch(function(error){
         console.log(error);
     });
