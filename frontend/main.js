@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', (event) =>{
     getVisitCount();
 })
-
+// Azure FUnction URL
 const functionApiUrl = 'https://counter.crispsec.com/api/counterHTTPtrigger';
 
 
