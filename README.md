@@ -14,5 +14,6 @@ Cloud Resume Challenge repo for resume html and css, and backend Function App co
 - [] Setup CI/CD Pipelines for the Azure function
 - [] Create unit tests
 - [] Move CosmoDB Connection string to a key vault for secret storage
-- [] Add fake credentials into the code (API Keys), implement a CI/CD scanner workflow
+- [x] Add fake credentials into the code (API Keys)
+- [] implement a CI/CD scanner to identify commited secrets
 - [] Create a secondary page to discuss the project and showcase findings from the scanner and fixes
