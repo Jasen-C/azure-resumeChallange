@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', (event) =>{
     getVisitCount();
 })
 
-const functionApiUrl = 'https://azure-crispsec-resume-counter-powershell.azurewebsites.net/api/counterHTTPtrigger';
+const functionApiUrl = 'https://counter.crispsec.com/api/counterHTTPtrigger';
 
 
 const getVisitCount = () => {
