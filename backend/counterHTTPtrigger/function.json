@@ -1,0 +1,35 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "Request",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "Response"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "CosmosDBinput",
+      "direction": "in",
+      "connectionStringSetting": "counterDBConnection",
+      "databaseName": "counterDB",
+      "collectionName": "counterContainer"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "CosmosDBoutput",
+      "direction": "out",
+      "connectionStringSetting": "counterDBConnection",
+      "databaseName": "counterDB",
+      "collectionName": "counterContainer"
+    }
+  ]
+}
