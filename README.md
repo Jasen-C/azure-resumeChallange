@@ -11,6 +11,8 @@ Cloud Resume Challenge repo for resume html and css, and backend Function App co
 - [x] Setup cosmo database to track visitor count
 - [x] Create Azure Function in ~~Python~~ Powershell to query the cosmoDB for the current count, and update it for each visitor to the page.
 - [x] Configure javascript function to call the Azure Function, and display the current count on the page
-- [] Setup CI/CI Pipelines for the Azure function
+- [] Setup CI/CD Pipelines for the Azure function
 - [] Create unit tests
-
+- [] Move CosmoDB Connection string to a key vault for secret storage
+- [] Add fake credentials into the code (API Keys), implement a CI/CD scanner workflow
+- [] Create a secondary page to discuss the project and showcase findings from the scanner and fixes
