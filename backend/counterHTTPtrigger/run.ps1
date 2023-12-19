@@ -12,7 +12,7 @@ $test = $Request.Query.Test
 # Check if test param was passed in api call, if not update the database and return counter value
 if (-not $test){
 
-    #build object to update cosmoDB to new value
+    # build object to update cosmoDB to new value
     $Object = [PSCustomObject]@{
         id  = "1"
         counterValue    = ([int]$CosmosDBinput.counterValue + 1)
