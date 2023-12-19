@@ -3,6 +3,8 @@ window.addEventListener('DOMContentLoaded', (event) =>{
 })
 // Azure FUnction URL
 const functionApiUrl = 'https://counter.crispsec.com/api/counterHTTPtrigger';
+const testFunctionApiUrl = 'https://counter.crispsec.com/api/counterHTTPtrigger?test=1313';
+
 
 // Fake Api Credentials
 const ApiKey = "a52b2787-c1e4-480d-8bd9-c63f8605352c"
