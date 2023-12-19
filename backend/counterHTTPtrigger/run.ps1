@@ -41,7 +41,7 @@ if ($test){
         $testValue = [int]404
     }
 
-    #build object to pass back in the response
+    # build object to pass back in the response
     $Object = [PSCustomObject]@{
         id  = "1"
         counterValue    = $testValue
