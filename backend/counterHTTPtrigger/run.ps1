@@ -47,7 +47,7 @@ if ($test){
         counterValue    = $testValue
     }
 
-    #set body to the current counterValue from the cosmoDB
+    # set body to the current counterValue from the cosmoDB
     $body = $Object | select-object id,counterValue | convertto-json
 
     # Associate values to output bindings by calling 'Push-OutputBinding'.

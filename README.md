@@ -1,5 +1,5 @@
 # azure-ResumeChallange
-Cloud Resume Challenge repo for resume html and css, and backend Function App code.
+Cloud Resume Challenge repo for resume html and css, and backend Azure Function App code.
 
 ## Converted Resume to more modern HTML/CSS layout
 - [x] Converted my resume to a more modern looking html template, modified CSS for additional sections I added to the template for a seemless looking page.
@@ -10,6 +10,7 @@ Cloud Resume Challenge repo for resume html and css, and backend Function App co
 ## Next steps
 - [x] Setup cosmo database to track visitor count
 - [x] Create Azure Function in ~~Python~~ Powershell to query the cosmoDB for the current count, and update it for each visitor to the page.
+- [x] Add ability to pass a test parameter to the Azure function so calling it in test doesnt update the counterValue stored in the database.
 - [x] Configure javascript function to call the Azure Function, and display the current count on the page
 - [] Setup CI/CD Pipelines for the Azure function deployment
 - [] Create unit tests
