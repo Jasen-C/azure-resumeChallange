@@ -20,7 +20,7 @@ on:
 # 2. Change these variables for your configuration:
 env:
   AZURE_FUNCTIONAPP_NAME: 'azure-crispsec-resume-counter-powershell'   # set this to your function app name on Azure
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: '/backend/counterHTTPtrigger'       # set this to the path to your function app project, defaults to the repository root
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: './backend/counterHTTPtrigger/'       # set this to the path to your function app project, defaults to the repository root
 
 jobs:
   build-and-deploy:
