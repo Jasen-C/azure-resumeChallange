@@ -6,13 +6,13 @@ Cloud Resume Challenge repo for resume html and css, and backend Azure Function 
 
 ## Setup Github Actions
 - [x] Configured Github actions to auto deploy any changes in frontend code to Azure Storage, purge CDN so updated content is severed immediatly after new code commits.
+- [x] Setup CI/CD Pipelines for the Azure function app deployment
 
 ## Next steps
 - [x] Setup cosmo database to track visitor count
 - [x] Create Azure Function in ~~Python~~ Powershell to query the cosmoDB for the current count, and update it for each visitor to the page.
 - [x] Add ability to pass a test parameter to the Azure function so calling it in test doesnt update the counterValue stored in the database.
 - [x] Configure javascript function to call the Azure Function, and display the current count on the page
-- [] Setup CI/CD Pipelines for the Azure function deployment
 - [] Create unit tests
 - [] Move CosmoDB Connection string to a key vault for secret storage
 - [x] Add fake credentials into the code (API Keys)
