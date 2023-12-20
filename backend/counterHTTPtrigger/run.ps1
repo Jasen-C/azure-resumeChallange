@@ -18,7 +18,7 @@ if (-not $test){
         counterValue    = ([int]$CosmosDBinput.counterValue + 1)
     }
 
-    #push output to update cosmoDB
+    # push output to update cosmoDB
     Push-OutputBinding -Name CosmosDBOutput -Value $Object
 
     #set body to the current counterValue from the cosmoDB
